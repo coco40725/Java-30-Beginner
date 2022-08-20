@@ -1,0 +1,19 @@
+/* 
+javac D:\Java_lession\1_basic\code\day1\HelloWorld.java  [進行編譯，建立class，每一次更動都要重新編譯]
+java -classpath D:\Java_lession\1_basic\code\day1 Okay  [用絕對路徑，執行class]
+java -classpath D:\Java_lession\1_basic\code\day1 notGood  [用絕對路徑，執行class]
+java notGood [先cd到有class的位置，然後再執行]
+java Okay [先cd到有class的位置，然後再執行]
+*/
+class notGood { 
+    public static void main(String[] args){
+        System.out.println("Hello World!"); 
+    }
+}
+
+class Okay {
+    public static void main(String[] args){
+        System.out.println("YEE");
+    }
+}
+
